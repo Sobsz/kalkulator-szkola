@@ -3,6 +3,7 @@ def input_lub_wyjdz(prompt):
     if out.lower() == "exit":
         print("Żegnam!")
         exit()
+    return out
 
 print("~ Kalkulator ~")
 print("Aby wyjść, wpisz \"exit\".")
